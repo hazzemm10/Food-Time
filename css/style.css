@@ -1,0 +1,286 @@
+:root {
+  --main-color: #396c03;
+  --pragraph-color: #676767;
+}
+
+/* <----------Navbar----------> */
+
+nav {
+  background-color: #f0f4ec;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 20px;
+}
+.dropdown-item {
+  background-color: #f0f4ec;
+}
+
+/* button in Navbar */
+
+#Submit {
+  color: white;
+  border: #396c03 2px solid;
+  margin: 0 10px;
+  background-color: #396c03;
+}
+.social {
+  color: white;
+  border: #396c03 solid 2px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #396c03;
+}
+/* Style the nav-link */
+.nav-link {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+/* Style the active class */
+.nav-link:hover {
+  color: #396c03 !important;
+}
+.nav-item .active {
+  border-bottom: #396c03 solid 3px;
+  font-weight: bold;
+  color: #396c03 !important;
+}
+
+/* <----------Header----------> */
+
+header {
+  background-image: url(../images/—Pngtree—hand-painted\ noise\ green\ leaf\ element_4054582\ 1.png);
+  background-repeat: no-repeat;
+  background-color: #f0f4ec;
+  padding: 50px 0;
+}
+h1 {
+  font-family: "Merienda", cursive;
+  color: var(--main-color);
+}
+
+header p {
+  color: var(--pragraph-color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+#searchlocation {
+  padding: 11px 12px;
+  position: relative;
+}
+#submit {
+  position: absolute;
+  color: white;
+  border: 0;
+  background-color: var(--main-color);
+  padding: 11px 40px;
+  top: 0;
+  right: 0;
+}
+
+.trends {
+  color: #ff8b00;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  padding: 5px 10px;
+  top: 5%;
+  right: 20%;
+}
+.trends p {
+  color: var(--pragraph-color);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 27.3px;
+}
+
+/* <----------Explore----------> */
+
+.explore {
+  background-color: #fff9f2;
+}
+h2 {
+  font-family: "Merienda", cursive;
+  color: var(--main-color);
+}
+.content {
+  text-align: left;
+}
+.imgs {
+  position: relative;
+}
+.delivery {
+  position: absolute;
+  left: 0;
+}
+
+#Explore {
+  color: white;
+  padding: 15px 40px 15px 40px;
+  border: #396c03 2px solid;
+  background-color: #396c03;
+}
+
+h3 {
+  color: #3f3f3f;
+  padding: 25px 0 0 0;
+}
+
+.advantage-content {
+  color: var(--pragraph-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.container-item {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container-item:hover {
+  background-color: #f5f8f2;
+}
+
+/* <----------carousel----------> */
+
+.carousel-caption h5 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+.carousel-caption p {
+  color: #ededed;
+}
+
+#Start {
+  color: white;
+  padding: 15px 45px 15px 45px;
+  border: #ff8b00 2px solid;
+  background-color: #ff8b00;
+}
+
+/* <----------about----------> */
+
+.btns button {
+  background: #f0f4ec;
+  color: #396c03;
+  border: #396c03 1px solid;
+  padding: 10px 35px;
+  -webkit-transition: all 0.75s;
+  -o-transition: all 0.75s;
+  transition: all 0.75s;
+}
+.btns button:hover {
+  background: #396c03;
+
+  color: white;
+  border: white 1px solid;
+}
+.accordion .accordion-item .accordion-header {
+  font-family: system-ui;
+  color: black;
+  border: 1px #bfbfbf solid !important;
+}
+
+/* <----------app----------> */
+
+.app {
+  background-color: #fff9f2;
+}
+
+.app-btn div div {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+.app-btn div div .appstore {
+  font-size: 21px;
+  font-weight: 650;
+  margin: 0;
+}
+.app-btn {
+  text-align: left;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.h3-app {
+  color: #396c03;
+  font-weight: 700;
+}
+
+/* <----------footer----------> */
+
+.footer {
+  color: #ededed;
+  background-color: #224300;
+  padding-bottom: 10px;
+}
+
+table td,
+table th {
+  background-color: #224300 !important;
+}
+.table tbody tr td {
+  color: #ededed;
+  padding-bottom: 0;
+}
+.table thead th {
+  color: white;
+}
+
+/* <----------media query----------> */
+
+@media screen and (max-width: 992px) {
+  header h1,
+  header p {
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+  }
+
+  .firstDiv {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .firstDiv div {
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+  .footer-content1 {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 668px) and (max-width: 992px) {
+  .firstDiv div {
+    offset: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .app-btn div .appstore {
+    font-size: 1rem !important;
+    font-weight: 300;
+  }
+  .carousel-caption {
+    padding: 20px 0 10px 0;
+  }
+  .carousel-caption h5 {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
